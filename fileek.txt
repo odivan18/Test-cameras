@@ -1,0 +1,22 @@
+68001bad-ef23-4b82-a1f2-091069343993@Другой сервер
+32d70059-aa2e-413a-983f-1533b1bcee14@Дым
+47ea87ce-f7d1-40cc-8e03-644b23201762@Огонь
+79ac6310-7f68-4bb3-becb-c9093158b34c@Оставленный предмет
+f5213006-cbd0-4d56-bae1-032aeb7f0801@Отслеживание объектов
+f9329e2d-397e-4281-a917-40a5d2047c6d@Саботаж
+9874aa1b-2c77-4c0d-a179-9e83b244da37@EGDS PTZ
+496da6df-3078-4b4a-bc2a-a6305c01e2be@FishEye
+634c9233-dc76-49bb-a72c-bfe3ac33d8dc@H264_1
+da0d85a4-543d-4b6d-9c77-b60e69253c52@H264_TestProblem
+e285ef8a-439c-4331-98cd-e89f6f394daa@H265_NEW
+b0ef6456-accb-4945-91e6-342ca4ca2cca@H265-TEST
+1f424b2b-ff35-4cfb-89a3-b481b0151a79@LPR
+f54fe015-a306-49fa-ba98-914c6a2fe38c@Mic1
+d3a85fe4-380d-46fd-a70e-392465251c67@PTZ TEST
+532560cb-20a1-43d6-b136-4c93f56eb7a7@Queue
+a5a3e771-d98a-4022-8799-6b150b699f7b@Satvision SVI-D222-N
+6d94e921-1ab1-4e0a-93fd-0153c947eccc@Satvision-mips-2018
+d2fcc861-e0ef-4ca8-b60f-8d2e2a92310b@Sound check
+6e21a14c-55cc-44ab-a394-0c4c7bbbd0df@SVI-SD2072IR SL PRO
+66f1d3b0-83cf-4c3b-b08a-1af56847530b@Trains
+e59ce365-e72a-463d-902e-ca05dcb11cef@webcam.hotelbibionepalace.it
