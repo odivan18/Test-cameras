@@ -10,7 +10,7 @@ using System.Threading;
 
 namespace Test_cameras
 {
-    class Transformer
+    class HttpResponseTransformer
     {
         public async Task<string> HttpResponseToString(HttpResponseMessage httpResponse, CancellationToken cancelToken)
         {

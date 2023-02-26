@@ -9,15 +9,15 @@ using System.IO;
 
 namespace Test_cameras
 {
-    class Strategy
+    class CameraShowStrategy
     {
-        Transformer transformer;
+        HttpResponseTransformer transformer;
         HttpRequester httpRequester;
         public CancellationTokenHolder tokenHolder;
 
-        public Strategy()
+        public CameraShowStrategy()
         {
-            transformer = new Transformer();
+            transformer = new HttpResponseTransformer();
             httpRequester = new HttpRequester();
             tokenHolder = new CancellationTokenHolder();
         }
@@ -32,7 +32,7 @@ namespace Test_cameras
             tokenHolder.TokenRefresh();
             HttpResponseMessage httpResponse = await httpRequester.ReponseByAuth(authData, tokenHolder.GetToken());
             List<Camera> cameras = await transformer.HttpResponseToCameraList(httpResponse, tokenHolder.GetToken());
-            cameras.Sort(Camera.CompareByName);
+            cameras.Sort(CameraSorter.CompareByName);
 
             return cameras;
         }

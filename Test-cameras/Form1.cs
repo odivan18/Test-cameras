@@ -29,13 +29,13 @@ namespace Test_cameras
         string httpAddress = "http://suv.kaminplus.ru:21012/rsapi/cameras";
         string localFilePath = "D:/учебка/рабочая/Test-cameras2/Test-cameras/fileek.txt";
 
-        Strategy strategy;
+        CameraShowStrategy strategy;
 
         public Form1()
         {
             InitializeComponent();
 
-            strategy = new Strategy();
+            strategy = new CameraShowStrategy();
 
             serverInfoLabel.Text = $"Сервер \n{httpAddress}";
 

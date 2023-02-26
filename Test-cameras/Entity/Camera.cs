@@ -38,30 +38,6 @@ namespace Test_cameras
             return textToFile.ToString();
         }
 
-        public static int CompareByName(Camera x, Camera y)
-        {
-            if (x == null)
-            {
-                if (y == null)
-                {
-                    return 0;
-                }
-                else
-                {
-                    return -1;
-                }
-            }
-            else
-            {
-                if (y == null)
-                {
-                    return 1;
-                }
-                else
-                {
-                    return x.name.CompareTo(y.name);
-                }
-            }
-        }
+        
     }
 }
